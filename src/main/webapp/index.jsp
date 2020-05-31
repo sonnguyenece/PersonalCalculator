@@ -10,7 +10,13 @@
   <head>
     <title>$Title$</title>
   </head>
-  <body>
-  <a href="/start">START</a>
+  <body onload="despatcher()">
+  <a href="/start" id="start">START</a>
   </body>
+  <script>
+    function despatcher() {
+document.getElementById("start").click();
+    }
+    
+  </script>
 </html>
